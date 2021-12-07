@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ingrese un icono para mi pagina-->
+    <link rel="shortcut icon" href="icon/star_icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Productos</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+
+            <div class="nav__logo">
+                <img class="nav__img" src="../assets/icon/logo.ico" alt="logo">
+            </div>
+            
+            <div class="nav__vinculo">
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
+                <a href="../index.html" class="nav__vinculo">Inicio</a>
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="3%">            
+                <a href="../pages/productos.html" class="nav__vinculo nav__vinculo--formato">Productos</a>
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
+                <a href="../pages/galeria.html" class="nav__vinculo">Galeria</a>
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
+                <a href="../pages/blog.html" class="nav__vinculo">Blog</a>
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
+                <a href="../pages/contacto.html" class="nav__vinculo">Contactanos</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="pagproductos">
+        <article class="pagproductos__titulo">
+            <h1 class="pagproductos__titulo pagprod__tit">Productos para tu Pellito y Tú</h1>
+            <p class="pagproductos__titulo pagprod_parr">Todos nuestros productos están completamente diseñados con mucho amor y dedicación, los materiales que usamos no afectan al medio ambiente.</p>
+        </article>
+    </section>
+
+    <section class="menus">
+        <!--Menu Desplegable-->
+        <h3 class="menu pagprod__cat">Nuestro Catalogo de Productos</h3>
+        <img class="img_productos" src="../assets/img/productos.png" alt="productos1"><br>
+    
+        <div class="menu lista_despl">
+        <select name="productos" id="productos">
+        <option value="b">Bandanas</option>
+        <option value="p">Pellitoys</option>
+        <option value="s">Sudaderas</option>
+        <option value="c">Cubrebocas</option>
+        </select>
+        </div>
+    
+    
+        <h3 class="menu pagprod__cat">Nuestra Tabla de Medidas y Colores en existencia</h3>
+
+        <table border="5px" cellpadding={10px} class="menu pagprod_tabla">
+            <tr>
+                <th>Producto</th>
+                <th>Medidas</th>
+                <th>Colores</th>
+                <th>Estilo</th>
+            </tr>
+            <tr>
+                <td>Bandanas L</td>
+                <td>Ch, Med, Gd</td>
+                <td>Rosa, Azul, Rojo</td>
+                <td>Lisas</td>
+            </tr>
+            <tr>
+                <td>Bandanas E</td>
+                <td>Ch, Med, Gd</td>
+                <td>Negro, Amarillo, Verde</td>
+                <td>Estampados</td>
+            </tr>
+            <tr>
+                <td>Sudaderas</td>
+                <td>Ch, Med, Gd</td>
+                <td>Negro, Vino, Blanco</td>
+                <td>Diseños Nuevos</td>
+            </tr>
+            <tr>
+                <td>Playeras</td>
+                <td>Ch, Med, Gd</td>
+                <td>Blanco</td>
+                <td>Peliculas Infantiles</td>
+            </tr>
+        </table>
+
+        <img class="img_productos" src="../assets/img/img_prod.jpg" alt="">
+    </section>
+
+    <footer class="footer">
+        <p class="footer__derechos">Todos los derechos reservados PELLITOS DE MI VIDA @ 2021</p>
+        
+        <div class="footer__red">
+            <img class="footer__red footer__red--formato" src="../assets/icon/facebook_icon_circ.png" alt="fb" width="2%">
+            <img class="footer__red footer__red--formato" src="../assets/icon/instagram_icon_circ.png" alt="ins" width="2%">
+            <img class="footer__red footer__red--formato" src="../assets/icon/email_icon_circ.png" alt="email" width="2%">
+            <img class="footer__red footer__red--formato" src="../assets/icon/whatsapp_icon_circ.png" alt="ws" width="2%">
+        </div>
+    </footer>
+</body>
+</html>
