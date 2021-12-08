@@ -6,32 +6,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ingrese un icono para mi pagina-->
     <link rel="shortcut icon" href="assets/icon/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Monserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>1rea Entrega</title>
+    <link rel="stylesheet" href="../html/css/css/fontawesome.min.css">
+    <title>Flex, Grids y Responsive</title>
 </head>
 <body>
-    <div class="grid-container">
-    <header class="header">
-        <nav class="nav">
+    <div class="padre">
+        <header class="header">
+            <div class="menu margen-interno">
+                <div class="logo">
+                    <img src="../html/assets/icon/logo.ico" alt="logo" width="90%">
+                </div>
+                <div class="nav">
 
-            <div class="nav__logo">
-                <img class="nav__img" src="assets/icon/logo.ico" alt="logo">
-            </div>
-            
-            
+                    <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="8%">
+                    <a href="index.html" class="nav__hijo--pag"><span class="off">Inicio</span></a>
+                    
+                    <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="5%">            
+                <a href="./pages/productos.html" class="nav__hijo--menu"><span class="off">Productos</span></a>
+                
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="5%">
+                <a href="./pages/galeria.html" class="nav__hijo--menu"><span class="off">Galeria</span></a>
 
-            <div class="nav__vinculo">
-                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="3%">
-                <a href="index.html" class="nav__vinculo nav__vinculo--formato">Inicio</a>
-                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">            
-                <a href="./pages/productos.html" class="nav__vinculo">Productos</a>
-                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
-                <a href="./pages/galeria.html" class="nav__vinculo">Galeria</a>
-                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
-                <a href="./pages/blog.html" class="nav__vinculo">Blog</a>
-                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="1.5%">
-                <a href="./pages/contacto.html" class="nav__vinculo">Contactanos</a>
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="5%">
+                <a href="./pages/blog.html" class="nav__hijo--menu"><span class="off">Blog</span></a>
+
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="5%">
+                <a href="./pages/contacto.html" class="nav__hijo--menu"><span class="off">Contactanos</span></a>
+
+
+                </div>
+                <div class="redes">
+
+                    <a href="https://www.facebook.com/">
+                        <img src="../html/assets/icon/facebook_icon_circ.png" alt="fb" width="20%">
+                    </a>
+
+                    <a href="https://www.instagram.com/">
+                        <img src="../html/assets/icon/instagram_icon_circ.png" alt="ins" width="20%">
+                    </a>
+                    
+                    <a href="mailto:pellitosdemivida@gmail.com">
+                        <img src="../html/assets/icon/email_icon_circ.png" alt="email" width="20%">
+                    </a>
+                    
+                    <a href="https://web.whatsapp.com"></a>
+                        <img src="../html/assets/icon/whatsapp_icon_circ.png" alt="ws" width="20%">
+                    </a>    
+
+
+
+
+                </div>
             </div>
+            <div class="contenido-principal margen-interno">
+                <h1>Pellitos de Mi Vida
+                    <p>Es una aventura inspirada en todos aquellos seres extraordinarios perrunos, que nos hacen la vida mas feliz y nos enseñan que el amor no tiene limites ni condiciones.</p>
+                </h1>
+                
+            </div>
+        </header>
+
+        <section class="section margen-interno">
+            <div class="articulos">
+                <article class="article">
+                    <img src="../html/assets/img/img_prod_1.png" alt="prod1" width="70%">
+                    <h3>Pellitoys</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+                    <a href="#">Leer mas ...</a>
+                </article>
+                <article class="article">
+                    <img src="../html/assets/img/img_prod_2.png" alt="prod2" width="70%">
+                    <h3>Cubrebocas</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+                    <a href="#">Leer mas ...</a>
+                </article>
+                <article class="article">
+                    <img src="../html/assets/img/img_prod_3.png" alt="prod3" width="70%">
+                    <h3>Playeras</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+                    <a href="#">Leer mas ...</a>
+                </article>
+                <article class="article">
+                    <img src="../html/assets/img/img_prod_4.png" alt="prod4" width="70%">
+                    <h3>Bandanas</h3>
+                    <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, sapiente.</p>
+                    
+                </article>
+                <nav class="navegacion">
+                    <a href="#">Inicio</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Final</a>
+                </nav>
+            </div>
+            <aside class="aside">
+                <div class="publicidad">
+                    <h4>Aside 1</h4>
+                    <img src="../html/assets/img/sidebar_1.png" alt="pellitreats" width="100%">
+                </div>
+                <div class="publicidad">
+                    <h4>Aside 2</h4>
+                    <img src="../html/assets/img/sidebar_2.png" alt="tdeshid" width="100%">
+                </div>
+                <div class="publicidad">
+                    <h4>Aside 3</h4>
+                    <img src="../html/assets/img/sidebar_3.png" alt="perrito" width="100%">
+                </div>
+                <div class="publicidad">
+                    <h4>Aside 4</h4>
+                    <img src="../html/assets/img/sidebar_4.png" alt="pulmon" width="100%">
+                </div>
+                <div class="publicidad">
+                    <h4>Aside 5</h4>
+                    <img src="../html/assets/img/sidebar_5.png" alt="corazon" width="100%">
+                </div>
+            </aside>
+        </section>
+
+        <footer class="footer margen-interno">
+            <nav class="pie">
+                <p>Todos los derechos reservados PELLITOS DE MI VIDA @ 2021</p>
+
+                <a href="https://www.facebook.com/">
+                    <img src="../html/assets/icon/facebook_icon_circ.png" alt="fb" width="10%">
+                </a>
+
+                <a href="https://www.instagram.com/">
+                    <img src="../html/assets/icon/instagram_icon_circ.png" alt="ins" width="10%">
+                </a>
+                
+                <a href="mailto:pellitosdemivida@gmail.com">
+                    <img src="../html/assets/icon/email_icon_circ.png" alt="email" width="10%">
+                </a>
+                
+                <a href="https://web.whatsapp.com"></a>
+                    <img src="../html/assets/icon/whatsapp_icon_circ.png" alt="ws" width="10%">
+                </a>
+
+            </nav>
+        </footer>
+    </div>
+    
+<!--     
+    <header>
+        <nav>
+        <div class="nav">
+            <div class="nav_logo">
+                <img class="nav__img" src="assets/icon/logo.ico" alt="logo" width="110%">
+            </div>        
+            <div class="nav_hijo">
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="15%">
+                <a href="index.html" class="nav__hijo--pag">Inicio</a>
+            </div>
+            <div class="nav_hijo">
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="12%">            
+                <a href="./pages/productos.html" class="nav__hijo--menu">Productos</a>
+            </div>
+            <div class="nav_hijo">
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="12%">
+                <a href="./pages/galeria.html" class="nav__hijo--menu">Galeria</a>
+            </div>
+            <div class="nav_hijo">
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="12%">
+                <a href="./pages/blog.html" class="nav__hijo--menu">Blog</a>
+            </div>
+            <div class="nav_hijo">
+                <img src="./assets/icon/Imagen_garrita.png" alt="garrita" width="12%">
+                <a href="./pages/contacto.html" class="nav__hijo--menu">Contactanos</a>
+            </div>
+        </div>
 
         </nav>
     </header>
@@ -49,15 +195,30 @@
                 
 
         <footer class="footer">
-            <p class="footer__derechos">Todos los derechos reservados PELLITOS DE MI VIDA @ 2021</p>
-            
-            <div class="footer__red">
-                <img class="footer__red footer__red--formato" src="../html/assets/icon/facebook_icon_circ.png" alt="fb" width="2%">
-                <img class="footer__red footer__red--formato" src="../html/assets/icon/instagram_icon_circ.png" alt="ins" width="2%">
-                <img class="footer__red footer__red--formato" src="../html/assets/icon/email_icon_circ.png" alt="email" width="2%">
-                <img class="footer__red footer__red--formato" src="../html/assets/icon/whatsapp_icon_circ.png" alt="ws" width="2%">
+            <div class="footer_derechos">
+                <p>Todos los derechos reservados PELLITOS DE MI VIDA @ 2021</p>
             </div>
-        </footer>
+            <div class="footer_red">
+                <a href="https://www.facebook.com/">
+                    <img src="../html/assets/icon/facebook_icon_circ.png" alt="fb" width="25%">
+                </a>
+            </div>
+            <div class="footer_red">
+                <a href="https://www.instagram.com/">
+                    <img src="../html/assets/icon/instagram_icon_circ.png" alt="ins" width="25%">
+                </a>
+            </div>
+            <div class="footer_red">
+                <a href="mailto:pellitosdemivida@gmail.com">
+                    <img src="../html/assets/icon/email_icon_circ.png" alt="email" width="25%">
+                </a>
+            </div>
+            <div class="footer_red">
+                <a href="https://web.whatsapp.com"></a>
+                <img src="../html/assets/icon/whatsapp_icon_circ.png" alt="ws" width="25%">
+            </div>
+            
+        </footer> -->
     </div>
 </body>
 </html>
